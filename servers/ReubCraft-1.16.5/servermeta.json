@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/Users/sddzi/Desktop/NebulaOut/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ReubCraft (Minecraft 1.16.5)",
+    "description": "ReubCraft Running Minecraft 1.16.5 (Forge v36.2.33)",
+    "address": "23.118.46.58:25565",
+    "discord": {
+      "shortId": "ReubCraft",
+      "largeImageText": "ReubCraft",
+      "largeImageKey": "lgreub"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "36.2.33"
+  },
+  "untrackedFiles": []
+}

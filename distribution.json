@@ -1,0 +1,2914 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "960237027884929054",
+    "smallImageText": "X10 Launcher",
+    "smallImageKey": "smallimg"
+  },
+  "servers": [
+    {
+      "id": "ReubCraft-1.16.5",
+      "name": "ReubCraft (Minecraft 1.16.5)",
+      "description": "ReubCraft Running Minecraft 1.16.5 (Forge v36.2.33)",
+      "icon": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/icon.png",
+      "version": "1.0.0",
+      "address": "23.118.46.58:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "ReubCraft",
+        "largeImageText": "ReubCraft",
+        "largeImageKey": "lgreub"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.33",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 212610,
+            "MD5": "c5907dc90a144fc9c2a472f9ec62f4af",
+            "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.33",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "0a9a8e2d95660d9547a2936ab8a3c4b0",
+                "url": "http://files.x10-dev.com/repo/versions/1.16.5-forge-36.2.33/1.16.5-forge-36.2.33.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.33:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2763890,
+                "MD5": "a265cc6068146b42aaa5a558f3c41c7b",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.33:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4214137,
+                "MD5": "8d8990d72f63d109f68fedf74182a3ea",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "5317d678a30e081818e73c90aed8c671",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://files.x10-dev.com/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://files.x10-dev.com/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://files.x10-dev.com/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://files.x10-dev.com/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://files.x10-dev.com/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://files.x10-dev.com/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://files.x10-dev.com/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://files.x10-dev.com/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://files.x10-dev.com/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "me.shedaniel:architectury:1.30.57@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 549025,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/architectury-1.30.57.jar",
+            "MD5": "ce0844461b501a191c9f695bc8a00828"
+          }
+        },
+        {
+          "id": "me.treyruffy.betterf3:betterf3forge:1.1.3@jar",
+          "name": "BetterF3 Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 347037,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/BetterF3-1.1.3-forge-1.16.5.jar",
+            "MD5": "d6552276a6a12fb610d06a601393cda7"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:1.4.2.9@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1326105,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/cofh_core-1.16.5-1.4.2.9.jar",
+            "MD5": "fd1fe6c9fe27e98abc7298b1b4afa2b1"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:configured:1.5.1@jar",
+          "name": "Configured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136584,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/configured-1.5.1-1.16.5.jar",
+            "MD5": "cb63e6c843c70d28fac454daeb19a9b1"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.28@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55307,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/Controlling-7.0.0.28.jar",
+            "MD5": "e7f729432d2236d3fccac400ffb1dd5c"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbessentials:1605.1.5-build.32@jar",
+          "name": "FTB Essentials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77378,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/ftb-essentials-1605.1.5-build.32.jar",
+            "MD5": "5832979515c2036d8560907d9f96201b"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 585125,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
+            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbranks:1605.1.5-build.16@jar",
+          "name": "FTB Ranks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64964,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/ftb-ranks-forge-1605.1.5-build.16.jar",
+            "MD5": "aec24c6a685df4be51313ea06247e7d0"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1605.2.3-build.40@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 171679,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/ftb-teams-forge-1605.2.3-build.40.jar",
+            "MD5": "08d807589127eac26626d36ac36d1b21"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.152@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 828677,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
+            "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.0@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6625233,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/journeymap-1.16.5-5.8.0.jar",
+            "MD5": "52f9ffcbd1e846dba5e1926775dcfb09"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.12.1.128@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235574,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/JustEnoughResources-1.16.5-0.12.1.128.jar",
+            "MD5": "9e48b71fca1e340e54cb4a7b035f50f2"
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.6.157@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806737,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/Mantle-1.16.5-1.6.157.jar",
+            "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.additions:mekanismadditions:10.1.2@jar",
+          "name": "Mekanism: Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1078058,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
+            "MD5": "694caa7a64411e7dcd85be4d40689ec1"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368033,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
+            "MD5": "7742cf452e949b171884457cedabdce1"
+          }
+        },
+        {
+          "id": "com.teammoeg:modernloadingscreen:1.0.1@jar",
+          "name": "Modern Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 610482,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/modernloadingscreen-1.0.1.jar",
+            "MD5": "10add297c86aee88b84e0bb56d7aaf87"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.14@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58249,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/MouseTweaks-2.14-mc1.16.2.jar",
+            "MD5": "3b4e04a9a79094149306457c7db838d5"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.16.5_HD_U_G8@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6046996,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/optionaloff/OptiFine_1.16.5_HD_U_G8.jar",
+            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.3.4.335@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10927812,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/TConstruct-1.16.5-3.3.4.335.jar",
+            "MD5": "27978fc015dc861fb4d856d84d123e1a"
+          }
+        },
+        {
+          "id": "cofh.thermal.cultivation:thermal_cultivation:1.4.1.3@jar",
+          "name": "Thermal Cultivation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 662926,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/thermal_cultivation-1.16.5-1.4.1.3.jar",
+            "MD5": "1d20fd7af6c50bb8a1a84bbc3d465667"
+          }
+        },
+        {
+          "id": "cofh.thermal.expansion:thermal_expansion:1.4.2.4@jar",
+          "name": "Thermal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 709356,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/thermal_expansion-1.16.5-1.4.2.4.jar",
+            "MD5": "8c13222cd5bf5f8444ff1e9011ca4ce4"
+          }
+        },
+        {
+          "id": "cofh.thermal.core:thermal:1.4.3.10@jar",
+          "name": "Thermal Series",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4901156,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/thermal_foundation-1.16.5-1.4.3.10.jar",
+            "MD5": "3534ae315d2b62ed7ed34ae50ebac3b0"
+          }
+        },
+        {
+          "id": "cofh.thermal.innovation:thermal_innovation:1.4.1.3@jar",
+          "name": "Thermal Innovation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 228957,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/thermal_innovation-1.16.5-1.4.1.3.jar",
+            "MD5": "8202ba256d1a4a4e64668d2e56a1a993"
+          }
+        },
+        {
+          "id": "cofh.thermal.locomotion:thermal_locomotion:1.4.1.2@jar",
+          "name": "Thermal Locomotion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 209020,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/forgemods/required/thermal_locomotion-1.16.5-1.4.1.2.jar",
+            "MD5": "ba2f10617c57a26c1fcec3c8eee23adc"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/fml.toml",
+            "MD5": "5961f97ddaa04677acd58a89aaf3826c",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1359,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/forge-client.toml",
+            "MD5": "c352e2faa854312ac4bf44773720b53f",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forge-common.toml",
+          "name": "forge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/forge-common.toml",
+            "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
+            "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 10,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "43dab5ba56444907f464ef4ea94652ba",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 66,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "3eced4cfc3c745c4f8a761c468d98783",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 200,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "47d18a064ad7b55e49db00cd1b7e59c7",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.toml",
+          "name": "jei-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2927,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/jei-client.toml",
+            "MD5": "5b49b8cf40d8faee2dea003eb5a11845",
+            "path": "config/jei-client.toml"
+          }
+        },
+        {
+          "id": "modernloadingscreen-client.toml",
+          "name": "modernloadingscreen-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 971,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/config/modernloadingscreen-client.toml",
+            "MD5": "3908d7faf2d188074d1af6638e65fdcd",
+            "path": "config/modernloadingscreen-client.toml"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 524472,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/modernloadingscreen/background.png",
+            "MD5": "3e4fe3eff55525870e839eef9ab9d11a",
+            "path": "modernloadingscreen/background.png"
+          }
+        },
+        {
+          "id": "mojangstudios.png",
+          "name": "mojangstudios.png",
+          "type": "File",
+          "artifact": {
+            "size": 11788,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/modernloadingscreen/mojangstudios.png",
+            "MD5": "b33fb474b70f0579c2c646f16b456a8c",
+            "path": "modernloadingscreen/mojangstudios.png"
+          }
+        },
+        {
+          "id": "mojank.png",
+          "name": "mojank.png",
+          "type": "File",
+          "artifact": {
+            "size": 44436,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/modernloadingscreen/mojank.png",
+            "MD5": "7fd2cea77c2af01953e1483c0b47ac57",
+            "path": "modernloadingscreen/mojank.png"
+          }
+        },
+        {
+          "id": "progressbar.png",
+          "name": "progressbar.png",
+          "type": "File",
+          "artifact": {
+            "size": 340,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/modernloadingscreen/progressbar.png",
+            "MD5": "d6a0dcd5d2404e29a715bec4d364e081",
+            "path": "modernloadingscreen/progressbar.png"
+          }
+        },
+        {
+          "id": "progressbar_background.png",
+          "name": "progressbar_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "url": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/files/modernloadingscreen/progressbar_background.png",
+            "MD5": "c53a1a95a78e5605f45c32c22bda1c36",
+            "path": "modernloadingscreen/progressbar_background.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "X10Server-1.16.5",
+      "name": "X10Server (Minecraft 1.16.5)",
+      "description": "X10Server Running Minecraft 1.16.5 (Forge v36.2.33)",
+      "icon": "http://files.x10-dev.com/servers/X10Server-1.16.5/icon.png",
+      "version": "1.0.0",
+      "address": "modpack.x10-dev.com:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "X10 Server",
+        "largeImageText": "X10 Modpack",
+        "largeImageKey": "lgimg"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.33",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 212610,
+            "MD5": "c5907dc90a144fc9c2a472f9ec62f4af",
+            "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.33",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "0a9a8e2d95660d9547a2936ab8a3c4b0",
+                "url": "http://files.x10-dev.com/repo/versions/1.16.5-forge-36.2.33/1.16.5-forge-36.2.33.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.33:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2763890,
+                "MD5": "a265cc6068146b42aaa5a558f3c41c7b",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.33:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4214137,
+                "MD5": "8d8990d72f63d109f68fedf74182a3ea",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "5317d678a30e081818e73c90aed8c671",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "http://files.x10-dev.com/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://files.x10-dev.com/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://files.x10-dev.com/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://files.x10-dev.com/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://files.x10-dev.com/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://files.x10-dev.com/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://files.x10-dev.com/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://files.x10-dev.com/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://files.x10-dev.com/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://files.x10-dev.com/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://files.x10-dev.com/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.geforcemods:securitycraft:v1.9.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2695383,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/[1.16.5]%20SecurityCraft%20v1.9.1.jar",
+            "MD5": "6ebabc8c38430dfb47ee0909850b0d10"
+          }
+        },
+        {
+          "id": "generated.forgemod:bygvanillabiomes:1.0.0@jar",
+          "name": "[BYG Addon] Enhanced Vanilla Biomes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19498,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/abyg-1.2-forge.jar",
+            "MD5": "570397367ea4998c4d90f15abfa267dd"
+          }
+        },
+        {
+          "id": "de.srendi:advancedperipherals:0.7.7.1r@jar",
+          "name": "Advanced Peripherals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 669195,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/advancedperipherals-1.16.5-0.7.7.1r.jar",
+            "MD5": "ba25864559bec6b6adf2e74769da03e7"
+          }
+        },
+        {
+          "id": "zmaster587.advancedrocketry:advancedrocketry:1.16.5-2.0.0-16@jar",
+          "name": "Advanced Rocketry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6340348,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/AdvancedRocketry-1.16.5-2.0.0-16-universal.jar",
+            "MD5": "428935e4a37be082cb4ca20eba3f08fb"
+          }
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.4.0@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24737,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/AI-Improvements-1.16.5-0.4.0.jar",
+            "MD5": "b0609621f58409a3ce92758110b8f2f3"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.0+mc1.16.4@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47735,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/appleskin-forge-mc1.16.x-2.4.0.jar",
+            "MD5": "ec6a10073c12f4e2ca787f3a808d9531"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4820914,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
+            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.16.5-2.1.22@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551039,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Aquaculture-1.16.5-2.1.22.jar",
+            "MD5": "8422adf5a82fda826d9515505e17682d"
+          }
+        },
+        {
+          "id": "me.shedaniel:architectury:1.30.57@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 549025,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/architectury-1.30.57.jar",
+            "MD5": "ce0844461b501a191c9f695bc8a00828"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.6-49@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57279,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/AutoRegLib-1.6-49.jar",
+            "MD5": "16302251afc7a757f00899b270cc0fa2"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.1.1.115@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63647,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/BetterAdvancements-1.16.5-0.1.1.115.jar",
+            "MD5": "adfe86a88ffbf084b3c5d94b3c2468a6"
+          }
+        },
+        {
+          "id": "me.treyruffy.betterf3:betterf3forge:1.1.3@jar",
+          "name": "BetterF3 Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 347037,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/BetterF3-1.1.3-forge-1.16.5.jar",
+            "MD5": "d6552276a6a12fb610d06a601393cda7"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:1.16.5-13.1.0.477@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3651670,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/BiomesOPlenty-1.16.5-13.1.0.477-universal.jar",
+            "MD5": "e9c62fa3fce0a36475bf6e4b5c43a542"
+          }
+        },
+        {
+          "id": "corgiaoc.byg.entrypoint:byg:1.3.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10314611,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/byg-1.3.5.jar",
+            "MD5": "dc87a6a8de81eba74bf641be5d370462"
+          }
+        },
+        {
+          "id": "dan200.computercraft:computercraft:1.100.4@jar",
+          "name": "CC: Tweaked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1927336,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/cc-tweaked-1.16.5-1.100.4.jar",
+            "MD5": "8856bdffdab65e9fa627b6ca01b3f611"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre22@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2033912,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/cfm-7.0.0pre22-1.16.3.jar",
+            "MD5": "b2a5f7a361279de6bb5f51246ad36484"
+          }
+        },
+        {
+          "id": "team.chisel:chisel:MC1.16.5-2.0.1-alpha.4@jar",
+          "name": "Chisel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7313725,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Chisel-MC1.16.5-2.0.1-alpha.4.jar",
+            "MD5": "e552bddfb875ffab0f9d6e166e6bc34d"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:1.8.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482439,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
+            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:6.0.0.28@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18397,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Clumps-6.0.0.28.jar",
+            "MD5": "0fdfe776ae513bd8a4c7396097ce42e9"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:1.4.2.9@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1326105,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/cofh_core-1.16.5-1.4.2.9.jar",
+            "MD5": "fd1fe6c9fe27e98abc7298b1b4afa2b1"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.28@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55307,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Controlling-7.0.0.28.jar",
+            "MD5": "e7f729432d2236d3fccac400ffb1dd5c"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:9.3.4@jar",
+          "name": "Cooking for Blockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 683179,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/CookingForBlockheads_1.16.5-9.3.4.jar",
+            "MD5": "348fb1a64b8e9155ac44b0d729309ecf"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:7.1.2.505@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2489623,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.505.jar",
+            "MD5": "7b174c1c6819d656c3c690fa79ac2bc8"
+          }
+        },
+        {
+          "id": "net.mcreator.createconfectionery:create_confectionery:1.0.2@jar",
+          "name": "Create Confectionery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 921648,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/create-confectionery1.16.5_v1.0.2.jar",
+            "MD5": "07d06ae74fecb04d2de2f740256db819"
+          }
+        },
+        {
+          "id": "com.simibubi:create:v0.3.2g@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11564279,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
+            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.16.5-20220129a@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 834203,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/createaddition-1.16.5-20220129a.jar",
+            "MD5": "250fd90a842bb6c1071c58f09ff2febf"
+          }
+        },
+        {
+          "id": "com.kotakotik:createautomated:1.16.5-1.4.1a@jar",
+          "name": "Create Automated",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 485548,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/createautomated-1.16.5-1.4.1a.jar",
+            "MD5": "c86bffcec29152d23034d4e968f2e892"
+          }
+        },
+        {
+          "id": "com.imphuls3:createcafe:1.16.5-2.4@jar",
+          "name": "Create Cafe",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 172192,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/createcafe-1.16.5-2.4.jar",
+            "MD5": "eb79b873e72d6b48344431b8d3ad5857"
+          }
+        },
+        {
+          "id": "com.github.talrey:createdeco:1.1.2-1.16.5@jar",
+          "name": "Create Deco",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2408566,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/createdeco-1.1.2-1.16.5.jar",
+            "MD5": "9afa5c27642d40a8458a9ed0b36d4a7f"
+          }
+        },
+        {
+          "id": "com.stachegamer1609:createfa:1.0.7@jar",
+          "name": "CreateFoodAdditions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32678,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/createfa-1.16.5_v1.0.7.jar",
+            "MD5": "3676faff179fdb93601796fab4613392"
+          }
+        },
+        {
+          "id": "com.kotakotik:creategears:1.16.5-1.3.3@jar",
+          "name": "Create Gears",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62185,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/creategears-1.16.5-1.3.3.jar",
+            "MD5": "76e251273d7a06edd75ee3d1e34e962c"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:MC1.16.1-1.1.2.6@jar",
+          "name": "ConnectedTexturesMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186068,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/CTM-MC1.16.1-1.1.2.6.jar",
+            "MD5": "758f81bde7ee49b21b8ed2c0e1ef3567"
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420923,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
+            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+          }
+        },
+        {
+          "id": "com.feed_the_beast.mods:ftbbackups:2.1.2.2@jar",
+          "name": "FTB Backups",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 44027,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-backups-2.1.2.2.jar",
+            "MD5": "4bf6828a6501cf79eddfd133de68c38f"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbchunks:1605.3.2-build.115@jar",
+          "name": "FTB Chunks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737811,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-chunks-forge-1605.3.2-build.115.jar",
+            "MD5": "859cc1e34f4febac50e056393d4bc73e"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbessentials:1605.1.5-build.32@jar",
+          "name": "FTB Essentials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77378,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-essentials-1605.1.5-build.32.jar",
+            "MD5": "5832979515c2036d8560907d9f96201b"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 585125,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
+            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbmoney:1605.1.3-build.6@jar",
+          "name": "FTB Money",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72394,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-money-1605.1.3-build.6.jar",
+            "MD5": "44947be1c8c19cf880abbf5649c65cf4"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:1605.3.6-build.98@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 943662,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-quests-forge-1605.3.6-build.98.jar",
+            "MD5": "953d46de644a07e88c11a9afbd9f577e"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbranks:1605.1.5-build.16@jar",
+          "name": "FTB Ranks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64964,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-ranks-forge-1605.1.5-build.16.jar",
+            "MD5": "aec24c6a685df4be51313ea06247e7d0"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1605.2.3-build.40@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 171679,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ftb-teams-forge-1605.2.3-build.40.jar",
+            "MD5": "08d807589127eac26626d36ac36d1b21"
+          }
+        },
+        {
+          "id": "blusunrize.immersiveengineering:immersiveengineering:1.16.5-5.0.7-143@jar",
+          "name": "Immersive Engineering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10216783,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ImmersiveEngineering-1.16.5-5.0.7-143.jar",
+            "MD5": "6ecf25b7340596e3b8cef38838b47ee1"
+          }
+        },
+        {
+          "id": "com.buuz135.industrial:industrialforegoing:3.2.14.6@jar",
+          "name": "Industrial Foregoing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3582355,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/industrial-foregoing-1.16.5-3.2.14.6-14.jar",
+            "MD5": "2c4cf2b7dd85ab95a4268f5771564282"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258298,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
+            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:itemfilters:1605.2.5-build.9@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106801,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/item-filters-forge-1605.2.5-build.9.jar",
+            "MD5": "6e81a16049d7f2a6996cd1b0e97a3b03"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.152@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 828677,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
+            "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "com.blamejared:jeitweaker:1.1.0.49@jar",
+          "name": "JEI Tweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 151709,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/JEITweaker-1.16.5-1.1.0.49.jar",
+            "MD5": "6c7ebf18dc1c42f91ee503308fed1e2c"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.0@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6625233,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/journeymap-1.16.5-5.8.0.jar",
+            "MD5": "52f9ffcbd1e846dba5e1926775dcfb09"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.12.1.128@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235574,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/JustEnoughResources-1.16.5-0.12.1.128.jar",
+            "MD5": "9e48b71fca1e340e54cb4a7b035f50f2"
+          }
+        },
+        {
+          "id": "zmaster587.libvulpes:libvulpes:1.16.5-1.0.2-1@jar",
+          "name": "Lib Vulpes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 650127,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/LibVulpes-1.16.5-1.0.2-1-universal.jar",
+            "MD5": "20ce0610513233bbeb523f585d49d89a"
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.6.157@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806737,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Mantle-1.16.5-1.6.157.jar",
+            "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.additions:mekanismadditions:10.1.2@jar",
+          "name": "Mekanism: Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1078058,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
+            "MD5": "694caa7a64411e7dcd85be4d40689ec1"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368033,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
+            "MD5": "7742cf452e949b171884457cedabdce1"
+          }
+        },
+        {
+          "id": "com.github.gisellevonbingen:moremekanismprocessing:1.1@jar",
+          "name": "More Mekanism Processing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 520795,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/MoreMekanismProcessing-1.16.5-1.1.jar",
+            "MD5": "2a3fa71e55167279c841028544bed8ca"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.14@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58249,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/MouseTweaks-2.14-mc1.16.2.jar",
+            "MD5": "3b4e04a9a79094149306457c7db838d5"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.16.5-1.9.1-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203573,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "MD5": "1ed5def709b0b9d0f40db32d0877fad0"
+          }
+        },
+        {
+          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.2@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593114,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Patchouli-1.16.4-53.2.jar",
+            "MD5": "8bc012f54bb0df32e53d4c92398e2524"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:4.6.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 145933,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Placebo-1.16.5-4.6.1.jar",
+            "MD5": "ebf00ea62791def51c779ac0c3e7974c"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:r2.4-322@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8796901,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Quark-r2.4-322.jar",
+            "MD5": "1144d99278adcedb6bfac69842fbdf48"
+          }
+        },
+        {
+          "id": "com.refinedmods:refinedpipes:0.5.2@jar",
+          "name": "Refined Pipes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319651,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/refinedpipes-0.5.2.jar",
+            "MD5": "0b78a56073e52758a72ba1ddbd9578c2"
+          }
+        },
+        {
+          "id": "com.refinedmods:refinedstorage:1.9.17@jar",
+          "name": "Refined Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3224062,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/refinedstorage-1.9.17.jar",
+            "MD5": "9478aa2ba9fac7921183ac327077e9d7"
+          }
+        },
+        {
+          "id": "com.refinedmods:refinedstorageaddons:0.7.4@jar",
+          "name": "Refined Storage Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32634,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/refinedstorageaddons-0.7.4.jar",
+            "MD5": "d81c8d2571386f8e860c3521deab3341"
+          }
+        },
+        {
+          "id": "com.teammoeg:steampowered:1.16.5-1.1.14@jar",
+          "name": "Create: Steam Powered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256917,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/steampowered-1.16.5-1.1.14.jar",
+            "MD5": "11226478966707e42185a1e490bff148"
+          }
+        },
+        {
+          "id": "nz.co.mirality:storage4computercraft:1.3.1@jar",
+          "name": "Storage for ComputerCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 237356,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/Storage4ComputerCraft-1.16.5-1.3.1.jar",
+            "MD5": "4cae988e23cd1d8e73515cac16067ef8"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:8.5.1@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 575661,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.1.jar",
+            "MD5": "dc4993c727338dee8b1d7a8c4a6ee0b3"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.3.4.335@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10927812,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/TConstruct-1.16.5-3.3.4.335.jar",
+            "MD5": "27978fc015dc861fb4d856d84d123e1a"
+          }
+        },
+        {
+          "id": "cofh.thermal.cultivation:thermal_cultivation:1.4.1.3@jar",
+          "name": "Thermal Cultivation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 662926,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/thermal_cultivation-1.16.5-1.4.1.3.jar",
+            "MD5": "1d20fd7af6c50bb8a1a84bbc3d465667"
+          }
+        },
+        {
+          "id": "cofh.thermal.expansion:thermal_expansion:1.4.2.4@jar",
+          "name": "Thermal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 709356,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/thermal_expansion-1.16.5-1.4.2.4.jar",
+            "MD5": "8c13222cd5bf5f8444ff1e9011ca4ce4"
+          }
+        },
+        {
+          "id": "cofh.thermal.core:thermal:1.4.3.10@jar",
+          "name": "Thermal Series",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4901156,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/thermal_foundation-1.16.5-1.4.3.10.jar",
+            "MD5": "3534ae315d2b62ed7ed34ae50ebac3b0"
+          }
+        },
+        {
+          "id": "cofh.thermal.innovation:thermal_innovation:1.4.1.3@jar",
+          "name": "Thermal Innovation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 228957,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/thermal_innovation-1.16.5-1.4.1.3.jar",
+            "MD5": "8202ba256d1a4a4e64668d2e56a1a993"
+          }
+        },
+        {
+          "id": "cofh.thermal.locomotion:thermal_locomotion:1.4.1.2@jar",
+          "name": "Thermal Locomotion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 209020,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/thermal_locomotion-1.16.5-1.4.1.2.jar",
+            "MD5": "ba2f10617c57a26c1fcec3c8eee23adc"
+          }
+        },
+        {
+          "id": "com.hrznstudio:titanium:3.2.8.4@jar",
+          "name": "Titanium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 635229,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/titanium-1.16.5-3.2.8.4-10.jar",
+            "MD5": "7e11f28ccb59508e22be363dfc05400f"
+          }
+        },
+        {
+          "id": "net.xalcon:torchmaster:2.3.8@jar",
+          "name": "Torchmaster",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94627,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/forgemods/required/torchmaster-2.3.8.jar",
+            "MD5": "ca3a3912e74ee5e5b2e28d913ea8a3c7"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 453,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Advancedperipherals/general.toml",
+            "MD5": "a5d6599c5a0a89d8a4ef341dcfa3e07c",
+            "path": "config/Advancedperipherals/general.toml"
+          }
+        },
+        {
+          "id": "metaphysics.toml",
+          "name": "metaphysics.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1015,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Advancedperipherals/metaphysics.toml",
+            "MD5": "4ff02a4091469794a9e6fa7504ec0134",
+            "path": "config/Advancedperipherals/metaphysics.toml"
+          }
+        },
+        {
+          "id": "peripherals-1.toml.bak",
+          "name": "peripherals-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 3764,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Advancedperipherals/peripherals-1.toml.bak",
+            "MD5": "16c671889bf3667fe49c2e59a1b09bbb",
+            "path": "config/Advancedperipherals/peripherals-1.toml.bak"
+          }
+        },
+        {
+          "id": "peripherals.toml",
+          "name": "peripherals.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3765,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Advancedperipherals/peripherals.toml",
+            "MD5": "1697d7cdae8eb7466bd3cade1662090c",
+            "path": "config/Advancedperipherals/peripherals.toml"
+          }
+        },
+        {
+          "id": "world.toml",
+          "name": "world.toml",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Advancedperipherals/world.toml",
+            "MD5": "07a93aedfde63057aa8d0ba1ecc45267",
+            "path": "config/Advancedperipherals/world.toml"
+          }
+        },
+        {
+          "id": "additions-client.toml",
+          "name": "additions-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 280,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/additions-client.toml",
+            "MD5": "40b866e18399b8b7639c33e04f9d9541",
+            "path": "config/Mekanism/additions-client.toml"
+          }
+        },
+        {
+          "id": "additions-common.toml",
+          "name": "additions-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6175,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/additions-common.toml",
+            "MD5": "9885a3b3856963421efd69f0ac9b81f3",
+            "path": "config/Mekanism/additions-common.toml"
+          }
+        },
+        {
+          "id": "additions.toml",
+          "name": "additions.toml",
+          "type": "File",
+          "artifact": {
+            "size": 403,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/additions.toml",
+            "MD5": "bf231993c245e9fa19b339f6b69feb66",
+            "path": "config/Mekanism/additions.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3951,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/client.toml",
+            "MD5": "a9b0b10020338ca7626572251b0f4518",
+            "path": "config/Mekanism/client.toml"
+          }
+        },
+        {
+          "id": "gear.toml",
+          "name": "gear.toml",
+          "type": "File",
+          "artifact": {
+            "size": 13098,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/gear.toml",
+            "MD5": "7f5d8f566cc476746cdd8bc1e0633224",
+            "path": "config/Mekanism/gear.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9894,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/general.toml",
+            "MD5": "dbfe6c8e6c15f74f544678556c16e098",
+            "path": "config/Mekanism/general.toml"
+          }
+        },
+        {
+          "id": "generators-gear.toml",
+          "name": "generators-gear.toml",
+          "type": "File",
+          "artifact": {
+            "size": 781,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/generators-gear.toml",
+            "MD5": "92c06793bc46fe722b39bbd945646c8c",
+            "path": "config/Mekanism/generators-gear.toml"
+          }
+        },
+        {
+          "id": "generators.toml",
+          "name": "generators.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4630,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/generators.toml",
+            "MD5": "c4035fc7b159bd2caa3013118879b2c4",
+            "path": "config/Mekanism/generators.toml"
+          }
+        },
+        {
+          "id": "machine-storage.toml",
+          "name": "machine-storage.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2225,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/machine-storage.toml",
+            "MD5": "1cc70f4e423bd9cb57300601a1deb2f0",
+            "path": "config/Mekanism/machine-storage.toml"
+          }
+        },
+        {
+          "id": "machine-usage.toml",
+          "name": "machine-usage.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2454,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/machine-usage.toml",
+            "MD5": "a52c4ebfa24a40d94fb7dd6b5ca9514f",
+            "path": "config/Mekanism/machine-usage.toml"
+          }
+        },
+        {
+          "id": "tiers.toml",
+          "name": "tiers.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9230,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/tiers.toml",
+            "MD5": "6c6782507bc8d348a8c78f1010044e7a",
+            "path": "config/Mekanism/tiers.toml"
+          }
+        },
+        {
+          "id": "tools-client.toml",
+          "name": "tools-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 180,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/tools-client.toml",
+            "MD5": "9f367ad557833f4a294b2da0fcdcc835",
+            "path": "config/Mekanism/tools-client.toml"
+          }
+        },
+        {
+          "id": "tools.toml",
+          "name": "tools.toml",
+          "type": "File",
+          "artifact": {
+            "size": 25972,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/tools.toml",
+            "MD5": "0f28a859fd3c3e7977038e82a93a0bd7",
+            "path": "config/Mekanism/tools.toml"
+          }
+        },
+        {
+          "id": "world.toml",
+          "name": "world.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5844,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/Mekanism/world.toml",
+            "MD5": "e780fa0f2ab6bee59a8afe0e24465af4",
+            "path": "config/Mekanism/world.toml"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "asteroidConfig.xml",
+          "name": "asteroidConfig.xml",
+          "type": "File",
+          "artifact": {
+            "size": 1226,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/advRocketry/asteroidConfig.xml",
+            "MD5": "3b1f14b6d90f895aef9bdcdbe359d5cf",
+            "path": "config/advRocketry/asteroidConfig.xml"
+          }
+        },
+        {
+          "id": "oreConfig.xml",
+          "name": "oreConfig.xml",
+          "type": "File",
+          "artifact": {
+            "size": 24,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/advRocketry/oreConfig.xml",
+            "MD5": "28da857998459b4dacc4ffc82815e9d1",
+            "path": "config/advRocketry/oreConfig.xml"
+          }
+        },
+        {
+          "id": "advancedRocketry-1.toml.bak",
+          "name": "advancedRocketry-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 11320,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/advancedRocketry-1.toml.bak",
+            "MD5": "3a04f10d8faf87d435bc27b6ef076e26",
+            "path": "config/advancedRocketry-1.toml.bak"
+          }
+        },
+        {
+          "id": "advancedRocketry.toml",
+          "name": "advancedRocketry.toml",
+          "type": "File",
+          "artifact": {
+            "size": 11320,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/advancedRocketry.toml",
+            "MD5": "e804a0a14d53d7a6c3345337b7ea2d71",
+            "path": "config/advancedRocketry.toml"
+          }
+        },
+        {
+          "id": "aiimprovements-common.toml",
+          "name": "aiimprovements-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5218,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/aiimprovements-common.toml",
+            "MD5": "60444b6a03f44f6d631042781af97a7b",
+            "path": "config/aiimprovements-common.toml"
+          }
+        },
+        {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1361,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/appleskin-client.toml",
+            "MD5": "999dd7d912a7eb915c59b1025710ca12",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "appliedenergistics2-client.toml",
+          "name": "appliedenergistics2-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1684,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/appliedenergistics2-client.toml",
+            "MD5": "808852e424f037eb56199fc599e4743d",
+            "path": "config/appliedenergistics2-client.toml"
+          }
+        },
+        {
+          "id": "appliedenergistics2-common.toml",
+          "name": "appliedenergistics2-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3877,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/appliedenergistics2-common.toml",
+            "MD5": "a7a2f2952f4844c661f8bea9b0554c09",
+            "path": "config/appliedenergistics2-common.toml"
+          }
+        },
+        {
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1398,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/aquaculture-common.toml",
+            "MD5": "554c924e854811592f3ba9385c0352a8",
+            "path": "config/aquaculture-common.toml"
+          }
+        },
+        {
+          "id": "betteradvancements-client.toml",
+          "name": "betteradvancements-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 887,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/betteradvancements-client.toml",
+            "MD5": "36aa6e6a9b3d16385865de66bba496fa",
+            "path": "config/betteradvancements-client.toml"
+          }
+        },
+        {
+          "id": "betterf3.toml",
+          "name": "betterf3.toml",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/betterf3.toml",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/betterf3.toml"
+          }
+        },
+        {
+          "id": "biomes.json",
+          "name": "biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 7214,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/biomesoplenty/biomes.json",
+            "MD5": "e38044d9c091d9cca7849cc01d814164",
+            "path": "config/biomesoplenty/biomes.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/biomesoplenty/client.toml",
+            "MD5": "5606d64f4f6e3d2d43b6ca68df7ae680",
+            "path": "config/biomesoplenty/client.toml"
+          }
+        },
+        {
+          "id": "generation.toml",
+          "name": "generation.toml",
+          "type": "File",
+          "artifact": {
+            "size": 789,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/biomesoplenty/generation.toml",
+            "MD5": "25a02e117650073e73ab7feb2fe4b68f",
+            "path": "config/biomesoplenty/generation.toml"
+          }
+        },
+        {
+          "id": "byg-biomes.json",
+          "name": "byg-biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 29052,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/byg/byg-biomes.json",
+            "MD5": "318bc2ee3771302abe74b2a814f1a319",
+            "path": "config/byg/byg-biomes.json"
+          }
+        },
+        {
+          "id": "byg-end-biomes.json",
+          "name": "byg-end-biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 3309,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/byg/byg-end-biomes.json",
+            "MD5": "35d5e6cae695baa3b976b58ad77e2d8a",
+            "path": "config/byg/byg-end-biomes.json"
+          }
+        },
+        {
+          "id": "byg-end-sub-biomes.json",
+          "name": "byg-end-sub-biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 474,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/byg/byg-end-sub-biomes.json",
+            "MD5": "419e1755b706a6900d3c0f21e496e460",
+            "path": "config/byg/byg-end-sub-biomes.json"
+          }
+        },
+        {
+          "id": "byg-nether-biomes.json",
+          "name": "byg-nether-biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 2607,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/byg/byg-nether-biomes.json",
+            "MD5": "6a0b60e16987b1ba7b0e99a64b49fcbb",
+            "path": "config/byg/byg-nether-biomes.json"
+          }
+        },
+        {
+          "id": "byg-sub-biomes.json",
+          "name": "byg-sub-biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 18853,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/byg/byg-sub-biomes.json",
+            "MD5": "4eea66bcc2092ea0b25d7921fff7cbfe",
+            "path": "config/byg/byg-sub-biomes.json"
+          }
+        },
+        {
+          "id": "byg-world.toml",
+          "name": "byg-world.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3066,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/byg/byg-world.toml",
+            "MD5": "515da37a097c200b04b4e75ee35f4deb",
+            "path": "config/byg/byg-world.toml"
+          }
+        },
+        {
+          "id": "cfm-client.toml",
+          "name": "cfm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/cfm-client.toml",
+            "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
+            "path": "config/cfm-client.toml"
+          }
+        },
+        {
+          "id": "cfm-common.toml",
+          "name": "cfm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/cfm-common.toml",
+            "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
+            "path": "config/cfm-common.toml"
+          }
+        },
+        {
+          "id": "citadel-common.toml",
+          "name": "citadel-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 473,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/citadel-common.toml",
+            "MD5": "0fe26cdbe540c6ee2b859e80d656e983",
+            "path": "config/citadel-common.toml"
+          }
+        },
+        {
+          "id": "cofh_core-client.toml",
+          "name": "cofh_core-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/cofh_core-client.toml",
+            "MD5": "ef933952ba8c6cddf1a59703f43861e8",
+            "path": "config/cofh_core-client.toml"
+          }
+        },
+        {
+          "id": "computercraft-client.toml",
+          "name": "computercraft-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 429,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/computercraft-client.toml",
+            "MD5": "e9dc86231eb9f9c388ce012ca7c814d9",
+            "path": "config/computercraft-client.toml"
+          }
+        },
+        {
+          "id": "cookingforblockheads-client.toml",
+          "name": "cookingforblockheads-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 127,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/cookingforblockheads-client.toml",
+            "MD5": "e1e3ffb231cc0402291d124a823ff237",
+            "path": "config/cookingforblockheads-client.toml"
+          }
+        },
+        {
+          "id": "cookingforblockheads-common.toml",
+          "name": "cookingforblockheads-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1261,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/cookingforblockheads-common.toml",
+            "MD5": "ab32639ee511feb9720ef09cf13c7efd",
+            "path": "config/cookingforblockheads-common.toml"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4121,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/create-client.toml",
+            "MD5": "f369c34dd7ac6a62cf0b96702d306c14",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "create-common.toml",
+          "name": "create-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2544,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/create-common.toml",
+            "MD5": "a90d251d47d5c6be31d792ab0aec7377",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "createaddition-common.toml",
+          "name": "createaddition-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4333,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/createaddition-common.toml",
+            "MD5": "a9ecd055283c0a92b6b87b43bfa6a66a",
+            "path": "config/createaddition-common.toml"
+          }
+        },
+        {
+          "id": "createautomated-client.toml",
+          "name": "createautomated-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/createautomated-client.toml",
+            "MD5": "9d202e54bb7fb6f81290b36aa0a183b8",
+            "path": "config/createautomated-client.toml"
+          }
+        },
+        {
+          "id": "createautomated-common.toml",
+          "name": "createautomated-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8401,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/createautomated-common.toml",
+            "MD5": "ca282fd51c9b3ce5f4fd2a8280154b4c",
+            "path": "config/createautomated-common.toml"
+          }
+        },
+        {
+          "id": "createdeco-client.toml",
+          "name": "createdeco-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/createdeco-client.toml",
+            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
+            "path": "config/createdeco-client.toml"
+          }
+        },
+        {
+          "id": "createdeco-common.toml",
+          "name": "createdeco-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 81,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/createdeco-common.toml",
+            "MD5": "69ae10215c4c4b9a74071cf3171c4ce4",
+            "path": "config/createdeco-common.toml"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 149,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/flywheel-client.toml",
+            "MD5": "5f87cebbd68c042e69e7c0ba4ab57f5d",
+            "path": "config/flywheel-client.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/fml.toml",
+            "MD5": "5961f97ddaa04677acd58a89aaf3826c",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1359,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/forge-client.toml",
+            "MD5": "2a328473a1dad3fe96066051e5aa4249",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forge-common.toml",
+          "name": "forge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/forge-common.toml",
+            "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
+            "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "ftbbackups-common.toml",
+          "name": "ftbbackups-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1240,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/ftbbackups-common.toml",
+            "MD5": "96ebd6994b237b857d32d7238c0305c1",
+            "path": "config/ftbbackups-common.toml"
+          }
+        },
+        {
+          "id": "immersiveengineering-client.toml",
+          "name": "immersiveengineering-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2389,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/immersiveengineering-client.toml",
+            "MD5": "6f0bd9a74cb104ecbdf52596dc626cc6",
+            "path": "config/immersiveengineering-client.toml"
+          }
+        },
+        {
+          "id": "immersiveengineering-common.toml",
+          "name": "immersiveengineering-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1931,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/immersiveengineering-common.toml",
+            "MD5": "c0951ed71dbd962584d6e4cc59303cba",
+            "path": "config/immersiveengineering-common.toml"
+          }
+        },
+        {
+          "id": "machine-agriculture-husbandry.toml",
+          "name": "machine-agriculture-husbandry.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4798,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/industrialforegoing/machine-agriculture-husbandry.toml",
+            "MD5": "810c8e9243ce9b717ea2f5f559647a37",
+            "path": "config/industrialforegoing/machine-agriculture-husbandry.toml"
+          }
+        },
+        {
+          "id": "machine-core.toml",
+          "name": "machine-core.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1533,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/industrialforegoing/machine-core.toml",
+            "MD5": "0d9767e9daf54e5b76bf6b1b700e76e3",
+            "path": "config/industrialforegoing/machine-core.toml"
+          }
+        },
+        {
+          "id": "machine-generator.toml",
+          "name": "machine-generator.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1141,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/industrialforegoing/machine-generator.toml",
+            "MD5": "476b2f08dc76187a5f123c5e4af8f619",
+            "path": "config/industrialforegoing/machine-generator.toml"
+          }
+        },
+        {
+          "id": "machine-misc.toml",
+          "name": "machine-misc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1852,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/industrialforegoing/machine-misc.toml",
+            "MD5": "27d4fb696df0dc8e04e9ec1e1e28a804",
+            "path": "config/industrialforegoing/machine-misc.toml"
+          }
+        },
+        {
+          "id": "machine-resource-production.toml",
+          "name": "machine-resource-production.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6071,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/industrialforegoing/machine-resource-production.toml",
+            "MD5": "72fdd15a2e6dc9a99931cc1acc1d7d70",
+            "path": "config/industrialforegoing/machine-resource-production.toml"
+          }
+        },
+        {
+          "id": "modules.toml",
+          "name": "modules.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5164,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/industrialforegoing/modules.toml",
+            "MD5": "02122be011f5ea39e50ee19056e901ea",
+            "path": "config/industrialforegoing/modules.toml"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1056,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "4952efe8d31858e53a23639b829251ec",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "417ec32b2be322b28fc6457c8754cc50",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 4761,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "4102c495e3a8d0c747f44d9eb3e7c4a9",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.toml",
+          "name": "jei-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2927,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/jei-client.toml",
+            "MD5": "5b49b8cf40d8faee2dea003eb5a11845",
+            "path": "config/jei-client.toml"
+          }
+        },
+        {
+          "id": "jeresources-common.toml",
+          "name": "jeresources-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/jeresources-common.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
+            "path": "config/jeresources-common.toml"
+          }
+        },
+        {
+          "id": "jeresources.toml",
+          "name": "jeresources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/jeresources.toml",
+            "MD5": "832deacf307999a65c4a3bc40ab0dfa7",
+            "path": "config/jeresources.toml"
+          }
+        },
+        {
+          "id": "libvulpes.toml",
+          "name": "libvulpes.toml",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/libvulpes.toml",
+            "MD5": "250e34b143a1984f2680ef1cff35661a",
+            "path": "config/libvulpes.toml"
+          }
+        },
+        {
+          "id": "mantle-client.toml",
+          "name": "mantle-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 306,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/mantle-client.toml",
+            "MD5": "05101bea78d9ee1fc36dd51716cc541b",
+            "path": "config/mantle-client.toml"
+          }
+        },
+        {
+          "id": "moremekanismprocessing-client.toml",
+          "name": "moremekanismprocessing-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2765,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/moremekanismprocessing-client.toml",
+            "MD5": "e479fb216c7ec00898427c3cb5aba830",
+            "path": "config/moremekanismprocessing-client.toml"
+          }
+        },
+        {
+          "id": "moremekanismprocessing-common.toml",
+          "name": "moremekanismprocessing-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4841,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/moremekanismprocessing-common.toml",
+            "MD5": "5577c5ea48795ca7ac4f0517adf82a73",
+            "path": "config/moremekanismprocessing-common.toml"
+          }
+        },
+        {
+          "id": "naturescompass-client.toml",
+          "name": "naturescompass-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 432,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/naturescompass-client.toml",
+            "MD5": "dfe7626832ede6b7b53e6a898b96e5d9",
+            "path": "config/naturescompass-client.toml"
+          }
+        },
+        {
+          "id": "naturescompass-common.toml",
+          "name": "naturescompass-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1142,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/naturescompass-common.toml",
+            "MD5": "d80b82667a1fe6b49421b7a7db5ebd8a",
+            "path": "config/naturescompass-common.toml"
+          }
+        },
+        {
+          "id": "patchouli-client.toml",
+          "name": "patchouli-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1020,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/patchouli-client.toml",
+            "MD5": "e86d459d398190ec8fb9f90346f5a755",
+            "path": "config/patchouli-client.toml"
+          }
+        },
+        {
+          "id": "quark-common.toml",
+          "name": "quark-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 74532,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/quark-common.toml",
+            "MD5": "13d0357ee10c9bf44c3cb459e843078a",
+            "path": "config/quark-common.toml"
+          }
+        },
+        {
+          "id": "refinedstorage-client.toml",
+          "name": "refinedstorage-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 831,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/refinedstorage-client.toml",
+            "MD5": "2e0b00535a3f1234f813d9e4fad477e0",
+            "path": "config/refinedstorage-client.toml"
+          }
+        },
+        {
+          "id": "securitycraft-client.toml",
+          "name": "securitycraft-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 353,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/securitycraft-client.toml",
+            "MD5": "e287a59460850a31d1a708cfb0bdc271",
+            "path": "config/securitycraft-client.toml"
+          }
+        },
+        {
+          "id": "sidebar_buttons.json",
+          "name": "sidebar_buttons.json",
+          "type": "File",
+          "artifact": {
+            "size": 273,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/sidebar_buttons.json",
+            "MD5": "a8074370cb4fc8f25deea8503a76e73d",
+            "path": "config/sidebar_buttons.json"
+          }
+        },
+        {
+          "id": "steampowered-common.toml",
+          "name": "steampowered-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2288,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/steampowered-common.toml",
+            "MD5": "c2b6bb7f6f2e31cb502d9b8053d97bdb",
+            "path": "config/steampowered-common.toml"
+          }
+        },
+        {
+          "id": "storagedrawers-client.toml",
+          "name": "storagedrawers-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 558,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/storagedrawers-client.toml",
+            "MD5": "3be75990053d350790d8d6e170d89641",
+            "path": "config/storagedrawers-client.toml"
+          }
+        },
+        {
+          "id": "storagedrawers-common.toml",
+          "name": "storagedrawers-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1333,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/storagedrawers-common.toml",
+            "MD5": "a4567c0fb43595fef9e10d34cf15d801",
+            "path": "config/storagedrawers-common.toml"
+          }
+        },
+        {
+          "id": "tconstruct-client.toml",
+          "name": "tconstruct-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2130,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/tconstruct-client.toml",
+            "MD5": "7d9188d30ce23a748079ee9963296b30",
+            "path": "config/tconstruct-client.toml"
+          }
+        },
+        {
+          "id": "tconstruct-common.toml",
+          "name": "tconstruct-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5407,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/tconstruct-common.toml",
+            "MD5": "cf84d859e7392c4ee01f381a3c235ffa",
+            "path": "config/tconstruct-common.toml"
+          }
+        },
+        {
+          "id": "thermal-client.toml",
+          "name": "thermal-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 208,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/thermal-client.toml",
+            "MD5": "1e9cf815a5c51d9b186a53595faf0cbf",
+            "path": "config/thermal-client.toml"
+          }
+        },
+        {
+          "id": "modules.toml",
+          "name": "modules.toml",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/titanium/modules.toml",
+            "MD5": "643b892dc55c42a49d8a62506f51b7e4",
+            "path": "config/titanium/modules.toml"
+          }
+        },
+        {
+          "id": "resources.toml",
+          "name": "resources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 321,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/titanium/resources.toml",
+            "MD5": "45a6a8752f14f69fdb710032d754bd43",
+            "path": "config/titanium/resources.toml"
+          }
+        },
+        {
+          "id": "titanium-tags.toml",
+          "name": "titanium-tags.toml",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/titanium/titanium-tags.toml",
+            "MD5": "2ad714bfa6e086cac5efcfcd55b48b52",
+            "path": "config/titanium/titanium-tags.toml"
+          }
+        },
+        {
+          "id": "titanium.toml",
+          "name": "titanium.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/titanium/titanium.toml",
+            "MD5": "f7517ff15e69c26baef646e6ac42a4ab",
+            "path": "config/titanium/titanium.toml"
+          }
+        },
+        {
+          "id": "torchmaster.toml",
+          "name": "torchmaster.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2493,
+            "url": "http://files.x10-dev.com/servers/X10Server-1.16.5/files/config/torchmaster.toml",
+            "MD5": "74721c396e9aee5e30c367e607b16bcb",
+            "path": "config/torchmaster.toml"
+          }
+        }
+      ]
+    }
+  ]
+}
