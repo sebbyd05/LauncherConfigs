@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "ReubCraft",
-    "description": "ReubCraft Running Minecraft 1.16.5 (Forge v36.2.33)",
+    "description": "ReubCraft Modded minecraft server",
     "address": "23.118.46.58:25565",
     "discord": {
       "shortId": "ReubCraft",
