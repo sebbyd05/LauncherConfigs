@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/Users/sddzi/Desktop/LauncherConfigs/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "X10Server (Minecraft 1.16.5)",
+    "description": "X10Server Running Minecraft 1.16.5 (Forge v36.2.33)",
+    "address": "modpack.x10-dev.com:25565",
+    "discord": {
+      "shortId": "X10 Server",
+      "largeImageText": "X10 Modpack",
+      "largeImageKey": "lgimg"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.2.33"
+  },
+  "untrackedFiles": []
+}
