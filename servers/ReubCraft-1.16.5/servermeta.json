@@ -2,7 +2,7 @@
   "$schema": "file:///C:/Users/sddzi/Desktop/NebulaOut/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "ReubCraft (Minecraft 1.16.5)",
+    "name": "ReubCraft",
     "description": "ReubCraft Running Minecraft 1.16.5 (Forge v36.2.33)",
     "address": "23.118.46.58:25565",
     "discord": {
