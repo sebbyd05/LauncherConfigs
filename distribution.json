@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "ReubCraft-1.16.5",
-      "name": "ReubCraft (Minecraft 1.16.5)",
+      "name": "ReubCraft",
       "description": "ReubCraft Running Minecraft 1.16.5 (Forge v36.2.33)",
       "icon": "http://files.x10-dev.com/servers/ReubCraft-1.16.5/icon.png",
       "version": "1.0.0",
