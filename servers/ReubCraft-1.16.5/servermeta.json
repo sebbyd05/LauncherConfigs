@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "ReubCraft",
     "description": "ReubCraft Modded minecraft server",
-    "address": "23.118.46.58:25565",
+    "address": "23.118.46.58:25100",
     "discord": {
       "shortId": "ReubCraft",
       "largeImageText": "ReubCraft",
